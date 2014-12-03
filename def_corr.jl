@@ -4,7 +4,7 @@
 type Node
 	id::Int64   # Index inside the network
 	l::Int64    # Hierarchy Level
-	c::Float64  # Probability of "soborno" acceptance
+	c::Float64  # Probability of bribe acceptance
 	th::Float64  # Threshold as a funciton of hierarchy level
 end
 
